@@ -1,6 +1,16 @@
 // ms: number of milliseconds
 // returns a Promise that is resolved after ms milliseconds
 function delay(ms) {
+
+    let promise = new Promise((resolve, reject) => {
+
+        // Call the resolve function after ms milliseconds
+        setTimeout(() => {
+            resolve()
+        }, ms)
+    })
+
+    return promise
 }
 
 // el: element node object
