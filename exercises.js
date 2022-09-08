@@ -17,7 +17,30 @@ function delay(ms) {
 // moves the element to the right by 100px over a duration of 1 second
 function animateRight(el) {
 
+
+    // Set the "from" and "to" frames of the animation
+    const keyframes = [
+        { transform: 'translateX(0px)' },
+        { transform: 'translateX(100px)'}
+    ]
+    // Set the duration (in milliseconds) and number of times the animation will run
+    const options = {
+        duration: 1000,
+        iterations: 1
+    }
+
+    // Animate the element using the variables defined above
+    //  - The element will move 100px to the right,
+    //    over the course of 1 second (1000 ms),
+    //    and the animation will only occur once
+    el.animate(keyframes, options);
+
+    ////////////////////////
+    // Alternate Solution //
+    ////////////////////////
+
     // Set the style of the element to "relative" so it can be moved by the animation
+    /*
     el.style.position="relative"
 
     // Create the animation style
@@ -27,6 +50,7 @@ function animateRight(el) {
 
     // Run the animation style "animateRightStyle" for 1 second on the element
     el.style.animation = "animateRightStyle 1s";
+    */
 }
 
 // xs: array
