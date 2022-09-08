@@ -16,6 +16,9 @@ function delay(ms) {
 // el: element node object
 // moves the element to the right by 100px over a duration of 1 second
 function animateRight(el) {
+
+    // Run the animation style "example" for 1 second on the element
+    el.style.animation = "example 1s";
 }
 
 // xs: array
@@ -30,3 +33,18 @@ function removeDuplicates(xs) {
 
     return uniqueItemArray
 }
+
+
+// Test out that animateRight() works as expected
+window.onload = function() {
+    console.log("Hello world")
+
+    const el = document.getElementById('square')
+
+    console.log(el)
+    animateRight(el)
+};
+
+
+
+
