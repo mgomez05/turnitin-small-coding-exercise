@@ -22,11 +22,11 @@ function animateRight(el) {
 
     // Create the animation style
     var style = document.createElement('style');
-    style.innerHTML = '@keyframes example {from {left: 0px;} to {left: 100px;}}'
+    style.innerHTML = '@keyframes animateRightStyle {from {left: 0px;} to {left: 100px;}}'
     document.head.appendChild(style);
 
-    // Run the animation style "example" for 1 second on the element
-    el.style.animation = "example 1s";
+    // Run the animation style "animateRightStyle" for 1 second on the element
+    el.style.animation = "animateRightStyle 1s";
 }
 
 // xs: array
