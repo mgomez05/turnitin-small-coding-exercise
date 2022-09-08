@@ -23,8 +23,10 @@ function removeDuplicates(xs) {
 These solutions can be found in the `exercises.js` file
 
 **NOTE:** Exercise 2 has two solutions:
-    - **Main Solution**: This uses the `Element.animate()` function and the `translateX()` function to animate the element from left to right
-    - **Alternate Solution**: This animates the element from left to right by updating various styles in the webpage using JavaScript. It adds a `keyframes` CSS style to the webpage, and updates the `animation` and `position` properties of the element `el`
+
+1. **Main Solution**: This uses the `Element.animate()` function and the `translateX()` function to animate the element from left to right
+
+2. **Alternate Solution**: This animates the element from left to right by updating various styles in the webpage using JavaScript. It adds a `keyframes` CSS style to the webpage, and updates the `animation` and `position` properties of the element `el`
 
 The `index.html` file is provided as a means of testing out the functions specified above
 
