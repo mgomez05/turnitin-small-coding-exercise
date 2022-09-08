@@ -21,4 +21,12 @@ function animateRight(el) {
 // xs: array
 // returns: a new array, with unique items
 function removeDuplicates(xs) {
+
+    // Convert the array to a set, thus elminating the duplicate items
+    let arrayAsSet = new Set(xs)
+
+    // Turn the set back into an array
+    let uniqueItemArray = [...arrayAsSet]
+
+    return uniqueItemArray
 }
