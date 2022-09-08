@@ -17,6 +17,9 @@ function delay(ms) {
 // moves the element to the right by 100px over a duration of 1 second
 function animateRight(el) {
 
+    // Set the style of the element to "relative" so it can be moved by the animation
+    el.style.position="relative"
+
     // Run the animation style "example" for 1 second on the element
     el.style.animation = "example 1s";
 }
