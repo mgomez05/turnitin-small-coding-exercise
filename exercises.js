@@ -20,6 +20,11 @@ function animateRight(el) {
     // Set the style of the element to "relative" so it can be moved by the animation
     el.style.position="relative"
 
+    // Create the animation style
+    var style = document.createElement('style');
+    style.innerHTML = '@keyframes example {from {left: 0px;} to {left: 100px;}}'
+    document.head.appendChild(style);
+
     // Run the animation style "example" for 1 second on the element
     el.style.animation = "example 1s";
 }
