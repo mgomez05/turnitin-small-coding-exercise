@@ -1,4 +1,31 @@
-**Works Cited / Useful Links**:
+# Turnitin Small Coding Exercises
+
+## About This Project
+
+Hello Tunitin team or others who may be viewing this private repository. This repo was created to complete the coding challenges provided by Turnitin. It provides solutions for the following 3 functions:
+
+```
+// ms: number of milliseconds
+// returns a Promise that is resolved after ms milliseconds
+function delay(ms) {
+}
+
+// el: element node object
+// moves the element to the right by 100px over a duration of 1 second
+function animateRight(el) {
+}
+
+// xs: array
+// returns: a new array, with unique items
+function removeDuplicates(xs) {
+}
+```
+
+These solutions can be found in the `exercises.js` file
+
+The `index.html` file is provided as a means of testing out the functions specified above
+
+## Works Cited / Useful Links
    - For **Exercise 1**
       - Information on Promises in ES6 - Tania Rascia -- ES6 Syntax and Feature Overview
       - https://www.taniarascia.com/es6-syntax-and-feature-overview/
