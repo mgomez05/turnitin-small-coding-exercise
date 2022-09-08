@@ -43,16 +43,16 @@ that were used to create the solutions to these exercises
 
 ### For **Exercise 2**
 - Main Solution Links:
-   - Documentation for the Element.animate() function
+   - Documentation for the `Element.animate()` function
       - https://developer.mozilla.org/en-US/docs/Web/API/Element/animate
-   - Documentation for the translate() CSS function
+   - Documentation for the `translate()` CSS function
       - https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate
 - Alternate Solution Links:
    - W3Schools -- How to animate an object from left to right:
       - https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_style_animation
-   - MDN web - The animation-duration CSS property
+   - MDN web -- The `animation-duration` CSS property
       - https://developer.mozilla.org/en-US/docs/Web/CSS/animation-duration
-   - StackOverflow -- How to dynamically create keyframes:
+   - StackOverflow -- How to dynamically create `keyframes`:
       - https://stackoverflow.com/questions/18481550/how-to-dynamically-create-keyframe-css-animations
 
 ### For **Exercise 3**
