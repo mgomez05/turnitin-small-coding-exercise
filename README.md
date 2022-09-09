@@ -28,9 +28,30 @@ These solutions can be found in the `exercises.js` file
 
 2. **Alternate Solution**: This animates the element from left to right by updating various styles in the webpage using JavaScript. It adds a `keyframes` CSS style to the webpage, and updates the `animation` and `position` properties of the element `el`
  
+## How to Run This Program ##
+
+1. To see this program in action, clone the repository and open `index.html` in a modern browser
+
+2. Once you load the page, you will automatically run 3 tests, each associated with one of the coding exercise functions 
+    - For exercises 1, 2, 3, you can see console output detailing the effects of the tests
+    - For exercise 2, you should also see a 1-second animation of a red square moving from left to right across the screen
+
+3. To examine or add to the existing tests, open `exercises.js` in an editor and find the section of code where we overwrite the `window.onload` function 
+
+```
+// Test out that the 3 function exercises work as expected
+window.onload = function() {
+
+    console.log("---------------------Running Tests for Exercises--------------------")
+
+    // Lots of testing code...
+
+};
+```
+
 ## Other Information
 
-The `index.html` file is provided as a means of testing out the functions specified above, specifically exercise 2
+The `index.html` file is provided as a means of testing out the functions specified above
 
 The **Works Cited / Useful Links** section below gives credit to the different sources
 that were used to create the solutions to these exercises
