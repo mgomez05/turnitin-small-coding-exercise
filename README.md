@@ -32,8 +32,8 @@ These solutions can be found in the `exercises.js` file
 
 1. To see this program in action, clone the repository and open `index.html` in a modern browser
 
-2. Once you load the page, you will automatically run 3 tests, each associated with one of the coding exercise functions 
-    - For exercises 1, 2, 3, you can see console output detailing the effects of the tests
+2. Once you load the page, you will automatically run 3 tests, each associated with one of the coding exercise functions
+    - For exercises 1, 2, 3, you can open Developer Tools on the web page and see console output detailing the effects of the tests
     - For exercise 2, you should also see a 1-second animation of a red square moving from left to right across the screen
 
 3. To examine or add to the existing tests, open `exercises.js` in an editor and find the section of code where we overwrite the `window.onload` function 
