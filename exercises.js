@@ -71,20 +71,20 @@ function removeDuplicates(xs) {
 window.onload = function() {
     console.log("Hello world")
 
+   // Test for Exercise 3
+   console.log("--Running Test for Exercise 3--")
+   let chars = ['A', 'B', 'A', 'C', 'B'];
+   const uniqueCharArray = removeDuplicates(chars)
+
+   console.log("Here is the original array:", chars)
+   console.log("Here is the new array with only unique elements:", uniqueCharArray)
+
     // Test for Exercise 2
     console.log("--Running Test for Exercise 2--")
     const el = document.getElementById('square')
 
     console.log(el)
     animateRight(el)
-
-    // Test for Exercise 3
-    console.log("--Running Test for Exercise 3--")
-    let chars = ['A', 'B', 'A', 'C', 'B'];
-    const uniqueCharArray = removeDuplicates(chars)
-
-    console.log("Here is the original array:", chars)
-    console.log("Here is the new array with only unique elements:", uniqueCharArray)
 
     // Test for Exercise 1
     console.log("--Running Test for Exercise 1--")
