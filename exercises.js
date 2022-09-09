@@ -71,7 +71,6 @@ function removeDuplicates(xs) {
 window.onload = function() {
     console.log("Hello world")
 
-
     // Test for Exercise 2
     console.log("--Running Test for Exercise 2--")
     const el = document.getElementById('square')
@@ -87,6 +86,19 @@ window.onload = function() {
     console.log("Here is the original array:", chars)
     console.log("Here is the new array with only unique elements:", uniqueCharArray)
 
+    // Test for Exercise 1
+    console.log("--Running Test for Exercise 1--")
+    console.log("Starting promise for a delay of 1 second...")
+    const promise = delay(1000)
+    
+    promise.then(
+        (result) => {
+            console.log("The promise was successful")
+        },
+        (error) => {
+            console.log("There was an error")
+        }
+    )
 
 };
 
