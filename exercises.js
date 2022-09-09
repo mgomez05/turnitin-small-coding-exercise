@@ -88,12 +88,12 @@ window.onload = function() {
 
     // Test for Exercise 1
     console.log("--Running Test for Exercise 1--")
-    console.log("Starting promise for a delay of 1 second...")
+    console.log("Calling promise with a delay of 1 second...")
     const promise = delay(1000)
     
     promise.then(
         (result) => {
-            console.log("The promise was successful")
+            console.log("The promise finished executing!")
         },
         (error) => {
             console.log("There was an error")
