@@ -67,17 +67,18 @@ function removeDuplicates(xs) {
 }
 
 
-// Test out that animateRight() works as expected
+// Test out that the 3 function exercises work as expected
 window.onload = function() {
-    console.log("Hello world")
 
-   // Test for Exercise 3
-   console.log("--Running Test for Exercise 3--")
-   let chars = ['A', 'B', 'A', 'C', 'B'];
-   const uniqueCharArray = removeDuplicates(chars)
+    console.log("---------------------Running Tests for Exercises--------------------")
 
-   console.log("Here is the original array:", chars)
-   console.log("Here is the new array with only unique elements:", uniqueCharArray)
+    // Test for Exercise 3
+    console.log("--Running Test for Exercise 3--")
+    let chars = ['A', 'B', 'A', 'C', 'B'];
+    const uniqueCharArray = removeDuplicates(chars)
+
+    console.log("Here is the original array:", chars)
+    console.log("Here is the new array with only unique elements:", uniqueCharArray)
 
     // Test for Exercise 2
     console.log("--Running Test for Exercise 2--")
