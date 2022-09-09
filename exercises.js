@@ -73,12 +73,14 @@ window.onload = function() {
 
 
     // Test for Exercise 2
+    console.log("--Running Test for Exercise 2--")
     const el = document.getElementById('square')
 
     console.log(el)
     animateRight(el)
 
     // Test for Exercise 3
+    console.log("--Running Test for Exercise 3--")
     let chars = ['A', 'B', 'A', 'C', 'B'];
     const uniqueCharArray = removeDuplicates(chars)
 
