@@ -2,7 +2,7 @@
 
 ## About This Project
 
-Hello Turnitin Team, or others who may be viewing this private repository. This repo was created to complete the coding challenges provided by Turnitin. It provides solutions for the following 3 functions:
+Hello Turnitin Team, or others who may be viewing this repository. This repo was created to complete the coding challenges provided by Turnitin. It provides solutions for the following 3 functions:
 
 ```
 // ms: number of milliseconds
